@@ -203,7 +203,7 @@ document.addEventListener('DOMContentLoaded', function() {
       const CFG = window.GALAXIA_INFINITA_DATA || {};
       const phrases = (Array.isArray(CFG.phrases) && CFG.phrases.length)
         ? CFG.phrases
-        : ["Eres preciosa 🌼", "Te Amo ☀️", "Mi girasol 🌻", "Mi alegría 💛", "Luz de mi vida ✨", "Mi destino 💛", "Amor lindo 🌻", "Para siempre ✨", "Amor d emi vida 💛"];
+        : ["Eres preciosa 🌼", "Te Amo ☀️", "Mi girasol 🌻", "Mi alegría 💛", "Luz de mi vida ✨", "Mi destino 💛", "Amor lindo 🌻", "Para siempre ✨", "Amor de mi vida 💛"];
       const phraseEmojis = [];
       const decoratedPhrases = phrases.map((phrase, index) => `${phrase.trim()} ${phraseEmojis[index % (phraseEmojis.length || 1)] || ''}`);
       const isCompactDevice = window.innerWidth < 700;
